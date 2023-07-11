@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QueueManager"
+        tools:targetApi="31">
+
+        <activity android:name=".Choose_Login" android:exported="true">
+            <!-- particular activity runs from multiple activity -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!--        <activity-->
+<!--            android:name=".Chooselogin"-->
+<!--            android:exported="false" />-->
+<!--        <activity-->
+<!--            android:name=".MainActivity"-->
+<!--            android:exported="true"-->
+<!--            android:label="@string/app_name"-->
+<!--            android:theme="@style/Theme.QueueManager.NoActionBar">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+<!--        </activity>-->
+
+        <activity android:name=".Login_Business" android:exported="true"></activity>
+        <activity android:name=".Login_Customer" android:exported="true"></activity>
+
+        <activity android:name=".Register_Business" android:exported="true"></activity>
+        <activity android:name=".Register_Customer" android:exported="true"></activity>
+
+        <activity android:name=".Business_Landing" android:exported="true"></activity>
+        <activity android:name=".Customer_Landing" android:exported="true"></activity>
+
+
+    </application>
+
+</manifest>

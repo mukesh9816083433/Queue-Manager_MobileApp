@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:background="@color/my"
+     android:textSize="30dp"
+     android:text="Login Business"
+     android:textColor="@color/white"
+     android:padding="6dp"
+     android:layout_margin="5dp"
+     />
+
+
+
+ <EditText
+        android:id="@+id/edtbemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:padding="15dp"
+        android:textSize="25dp"
+        />
+
+    <EditText
+        android:id="@+id/edtbpwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:hint="Password"
+        android:padding="15dp"
+        android:textSize="25dp"
+        />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Login"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+
+        />
+
+    <Button
+        android:id="@+id/btnregister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Register"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        />
+
+    <Button
+        android:id="@+id/btnfp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Forget Password?"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        />
+
+</LinearLayout>
