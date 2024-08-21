@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/logout"
+    android:title="Logout"
+    android:visible="true"
+    app:showAsAction="never"
+    />
+    <item
+        android:id="@+id/aboutus"
+        android:title="About us"
+        android:visible="true"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/summary"
+        android:title="Summery"
+        android:visible="true"
+        app:showAsAction="never"
+        />
+</menu>

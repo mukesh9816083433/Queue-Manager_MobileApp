@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".FragmentQueue">
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/queueTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Queue Title:"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/averageTimeTextView"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Average Time:"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/endQueueButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="End Queue"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Total no: "
+        android:textSize="25dp"/>
+
+
+    <TextView
+        android:id="@+id/next"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Customer name"
+        android:layout_gravity="center"
+        android:textSize="25dp"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/finish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next" />
+
+
+
+</LinearLayout>

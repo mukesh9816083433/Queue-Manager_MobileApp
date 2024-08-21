@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".FragmentHome"
+    tools:menu="@menu/logout">
+
+
+    <EditText
+        android:id="@+id/queueTitleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Queue Title" />
+
+    <EditText
+        android:id="@+id/averageTimeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Average Time" />
+
+    <Button
+        android:id="@+id/startQueueButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Queue" />
+
+</LinearLayout>
